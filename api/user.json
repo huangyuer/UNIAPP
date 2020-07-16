@@ -1,0 +1,26 @@
+{
+	"post": {
+		"loginEpoa": {
+			"dataType": "form",
+			"url": "/oauth/authorization",
+			"oauth": true
+		},
+		"loginUser": {
+			"dataType": "json",
+			"url": "/oauth/AuthAutoWithoutCaptcha",
+			"oauth": false
+		},
+		"billDirBscQueryNewStatus": {
+			"dataType": "json",
+			"url": "/billDirBsc/queryNewStatus",
+			"oauth": true
+		}
+		
+	},
+	"get": {
+		"encryption": {
+			"url": "/oauth/encryption",
+			"oauth": false
+		}
+	}
+}
